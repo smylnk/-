@@ -5,35 +5,36 @@
     <meta http-equil="X-UA-Compatible" content="EI=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сучасна пекарня</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="#">
+            <a href="/">
                 <img src="./images/logo.svg" alt="Логотип сучасної пекарні">
             </a>
             <ul>
-                <li><a href="#">Франшиза</a></li>
-                <li><a href="#">Наші традиції</a></li>
-                <li><a href="#">Формати</a></li>
-                <li><a href="#">Контакти</a></li>
+                <li><a class="menu-link" href="#traditions-section">Наші традиції</a></li>
+                <li><a class="menu-link" href="#chefs-section">Шеф-кухарі</a></li>
+                <li><a class="menu-link" href="#Formats-section">Формати</a></li>
+                <li><a class="menu-link" href="#Contact-section">Контакти</a></li>
             </ul>
         </nav>
-       <button type="button">Замовити дзвінок</button>
+       <button class="buttom" type="button">Замовити дзвінок</button>
         <!-- замовити дзв -->
     </header>
 <main>
     <section>
-    <ul>
+    <ul class="advantages-list">
         <li>Великий попит на ринку</li>
         <li>Доступні за бюджетом формати</li>
         <li>Досвідчена управлінська команда</li>
     </ul>
-        <h1>Сучасна пекарня</h1>
+        <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
         <h2></h2>
     </section>
-    <section>
-        <h2>Новий формат традицій</h2>
+    <section id="traditions-section">
+        <h2 class="section-title">Новий формат традицій</h2>
         <p>
             <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та натуральність інгредієнтів.
         </p>
@@ -43,8 +44,8 @@
         </p>
         <img src="./images/baker-man.jpg" alt="Чоловік пекарь дивиться на батони з посмішкою">
     </section>
-    <section>
-        <h2>Наші найкращі кухарі</h2>
+    <section id="chefs-section">
+        <h2 class="section-title">Наші найкращі <span class="accent">кухарі</span></h2>
         <ul>
             <li>
                 <article>
@@ -65,8 +66,8 @@
             </li>
         </ul>
     </section>
-    <section>
-        <h2>Формати</h2>
+    <section id="Formats-section">
+        <h2 class="section-title">Формати</h2>
         <ul>
             <li>
                 <article>
@@ -85,20 +86,27 @@
             </li>
         </ul>
     </section>
-    <section>
-        <h2>Приєднуйтесь до мережі пекарень</h2>
+    <section id="Contact-section">
+        <h2 class="section-title">Приєднуйтесь до мережі пекарень</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1640546568074!2d30.488658576203576!3d50.45666967159342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsINCj0LrRgNCw0LjQvdCwLCAwMjAwMA!5e0!3m2!1sru!2sca!4v1700515011198!5m2!1sru!2sca" 
+        width="603" 
+        height="595" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </section>
 </main>
     <footer>
         <nav>
-            <a href="#">
+            <a href="/index.html">
                 <img src="./images/logo.svg" alt="Логотип сучасної пекарні">
             </a>
             <ul>
-                <li><a href="#">Франшиза</a></li>
-                <li><a href="#">Наші традиції</a></li>
-                <li><a href="#">Формати</a></li>
-                <li><a href="#">Контакти</a></li>
+                <li><a href="#traditions-section">Наші традиції</a></li>
+                <li><a href="#chefs-section">Шеф-кухарі</a></li>
+                <li><a href="#Formats-section">Формати</a></li>
+                <li><a href="#Contact-section">Контакти</a></li>
             </ul>
         </nav>
         <address>
@@ -114,7 +122,7 @@
                 </a></li>
             </ul>
             <a href="#" target="_blank">Політика конфіденційності</a>
-            <p>© 2023 Дані захищені</p>
+            <p>&copy; 2023 Дані захищені</p>
         </address>
     </footer>
 </body>
